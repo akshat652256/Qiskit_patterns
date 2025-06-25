@@ -1,0 +1,8 @@
+langchain==0.1.17
+langchain-openai==0.1.6
+langsmith==0.1.28
+langchain-core==0.1.52
+langchain-community==0.0.36
+langgraph==0.0.40
+python-dotenv==1.0.1
+grandalf==0.8
