@@ -1,8 +1,12 @@
 langchain==0.1.17
-langchain-openai==0.1.6
 langsmith==0.1.28
 langchain-core==0.1.52
 langchain-community==0.0.36
+langchain-grow==0.3.6
 langgraph==0.0.40
+qiskit==1.4.3
+qiskit-machine-learning==0.8.3
+scikit-learn==1.7.0
+numpy==2.3.1
+pandas==2.3.1
 python-dotenv==1.0.1
-grandalf==0.8
