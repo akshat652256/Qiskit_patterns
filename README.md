@@ -7,7 +7,8 @@ This project uses LangChain, LangGraph, and Groq's llama-3.1-8b-instant to gener
 GROQ_API_KEY
 LANGSMITH_API_KEY
 
--Main Components
+--MAIN COMPONENTS
+
 i) Interactive Loop: Uses a directed multistep workflow (via LangGraph/LangChain) allowing back-and-forth between the AI code generator and human feedback before execution.
 
 ii) Code Generation: AI model generates Qiskit code for quantum (QSVR, QSVC) and classical tasks, considering problem statement and latest feedback.
@@ -18,7 +19,8 @@ iv) Human Feedback: After each code generation/execution, the user can provide r
 
 v) Configurable AI Models: Uses LLMs (Groq, OpenAI, etc.) for code generation; can be updated according to API keys and preferences.
 
--How to Use
+--HOW TO USE
+
 i) Start:
 You will be prompted for a problem statement (e.g., "Implement quantum SVR on California housing").
 
@@ -32,7 +34,7 @@ iv) Execute or Iterate:
 After entering done, the notebook executes the last version of the generated code and displays the output and any errors.
 You can resume the feedback cycle until you’re satisfied with the result or end the workflow.
 
-Note:
+NOTE:
 All code snippets include the required Qiskit and sklearn imports.
 You can interrupt the process at any time with exit.
 
